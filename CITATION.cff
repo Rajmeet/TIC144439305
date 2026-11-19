@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this candidate, please cite it as below."
+title: "TIC 144439305.01: a 1.1 Earth-radius, 22.6-hour transiting planet candidate around a nearby M dwarf"
+authors:
+  - family-names: Chandok
+    given-names: Rajmeet
+version: "1.0"
+date-released: 2026-11-19
+license: CC-BY-4.0
+keywords: [exoplanet, TESS, transit, M dwarf, ultra-short period, planet candidate]
+abstract: >-
+  Independent discovery and vetting of a 1.12 +/- 0.08 Earth-radius transiting planet candidate with a
+  0.9398098 d period around the M dwarf TIC 144439305 (62 pc), from public TESS full-frame-image data.
+  The signal was recovered in a pre-registered test on unsearched TESS sectors 105-106 (6.4 sigma).
+  TRICERATOPS FPP 0.0092 with MOLUSC Gaia companion limits. Search and vetting were carried out with
+  Claude (Anthropic) at the author's direction.
