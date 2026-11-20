@@ -1,8 +1,8 @@
 \ DRAFT - NOT UPLOADED. ExoFOP bulk "new community candidate" file (template params_planet_YYYYMMDD_001.txt).
 \ Before upload: (1) replace [TAG] with YYYYMMDD_<exofop-username>_<description>_001,
-\                (2) replace [PAPER_URL] with the public write-up URL (required for newctoi),
+\                (2) paper = Zenodo record (ExoFOP requires a peer-reviewed paper for newctoi; replace with the journal URL once published),
 \                (3) rename this file params_planet_YYYYMMDD_001.txt.
 \ Sources: period, epoch, depth, duration, imp, Rp/R*, a/R*, radius, insol, dens = MCMC fit (fit_144439305.json);
 \ inc, sma, temp (zero-albedo T_eq) derived from the same posterior and TIC 8.2 R*=0.465, M*=0.462, Teff=3505 K.
 target|flag|disp|discovery|candname|period|period_unc|epoch|epoch_unc|depth|depth_unc|duration|duration_unc|inc|inc_unc|imp|imp_unc|r_planet|r_planet_err|ar_star|ar_star_err|radius|radius_unc|mass|mass_unc|temp|temp_unc|insol|insol_unc|dens|dens_unc|sma|sma_unc|ecc|ecc_unc|arg_peri|arg_peri_err|time_peri|time_peri_unc|vsa|vsa_unc|tag|group|prop_period|paper|notes
-TIC144439305.01|newctoi|PC|TESS||0.9398098|0.0000018|2460922.3400|0.0016|489|66|1.02|0.07|86.9|1.5|0.36|0.20|0.0221|0.0015|6.75|0.21|1.12|0.08|||954|15|138|9|6.58|0.62|0.01457|0.00063||||||||||[TAG]||0|[PAPER_URL]|1.1Re 22.6h USP; QLP+SPOC+own phot; PRF on target; prereg S105/106 recovered 6.4sig; FPP 0.009 w/MOLUSC; needs HRI
+TIC144439305.01|newctoi|PC|TESS||0.9398098|0.0000018|2460922.3400|0.0016|489|66|1.02|0.07|86.9|1.5|0.36|0.20|0.0221|0.0015|6.75|0.21|1.12|0.08|||954|15|138|9|6.58|0.62|0.01457|0.00063||||||||||[TAG]||0|https://doi.org/10.5281/zenodo.24405376|1.1Re 22.6h USP; QLP+SPOC+own phot; PRF on target; prereg S105/106 recovered 6.4sig; FPP 0.009 w/MOLUSC; needs HRI

@@ -5,6 +5,13 @@ authors:
   - family-names: Chandok
     given-names: Rajmeet
 version: "1.0"
+doi: 10.5281/zenodo.24405376
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24405375
+    description: "Concept DOI (all versions)"
+url: "https://rajmeet.github.io/TIC144439305/"
+repository-code: "https://github.com/Rajmeet/TIC144439305"
 date-released: 2026-11-19
 license: CC-BY-4.0
 keywords: [exoplanet, TESS, transit, M dwarf, ultra-short period, planet candidate]

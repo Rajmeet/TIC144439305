@@ -1,7 +1,10 @@
 # TIC 144439305.01: a 1.1 Earth-radius, 22.6-hour transiting planet candidate around a nearby M dwarf
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24405376.svg)](https://doi.org/10.5281/zenodo.24405376)  
+Web page: https://rajmeet.github.io/TIC144439305/
+
 **Rajmeet Chandok** (2026). Search, vetting and analysis were carried out with Claude (Anthropic) at the
-author's direction. Please cite this record (see `CITATION.cff`) if you use the candidate.
+author's direction. Please cite this record if you use the candidate: Chandok, R. (2026), *TIC 144439305.01: a 1.1 Earth-radius, 22.6-hour transiting planet candidate around a nearby M dwarf*, Zenodo, doi:10.5281/zenodo.24405376 (all versions: doi:10.5281/zenodo.24405375).
 
 **Status: planet candidate (likely planet by TRICERATOPS criteria; not validated, not confirmed).** Found 2026-11-18 in an independent search
 of public NASA TESS full-frame-image data. As of 2026-11-18 the star is not a TOI or CTOI, has no
