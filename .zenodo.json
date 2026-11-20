@@ -1,0 +1,13 @@
+{
+  "title": "TIC 144439305.01: a 1.1 Earth-radius, 22.6-hour transiting planet candidate around a nearby M dwarf",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [{"name": "Chandok, Rajmeet"}],
+  "description": "<p>Independent discovery and vetting of a transiting planet candidate around the M dwarf TIC 144439305 (Gaia DR3 6532568669359184000; 62 pc), found in public NASA TESS full-frame-image data.</p><ul><li>Period 0.9398098 d (22.6 h); radius 1.12 &plusmn; 0.08 Earth radii; depth 489 ppm; T14 1.02 h.</li><li>Seen in every TESS sector covering the star (2020&ndash;2026); confirmed in independent light curves (own photometry 7.7&sigma;, TESS-SPOC 6.3&sigma;).</li><li>Pre-registered test on unsearched TESS sectors 105&ndash;106 (prediction SHA-256 7c9ad78233b91b76aa40728cc33c18a4d0e4bcb316d20fec71a4c2f298bed688): recovered at 6.4&sigma; (473 &plusmn; 74 ppm).</li><li>PRF difference-image fits place the source on the target; TRICERATOPS false-positive probability 0.0092 with MOLUSC Gaia companion limits (0.062 without), NFPP 0.0044.</li></ul><p>Status: planet candidate (\"likely planet\"), not validated or confirmed; high-resolution imaging and radial velocities are needed. As of 2026-11-20 the star is not a TOI or CTOI. Includes the write-up, data products, figures, predicted transit times through 2027 and the full search and vetting code. Search and vetting were carried out with Claude (Anthropic) at the author's direction.</p><p>Web page: https://rajmeet.github.io/TIC144439305/</p>",
+  "license": "cc-by-4.0",
+  "keywords": ["exoplanet", "TESS", "transit", "M dwarf", "ultra-short-period planet", "planet candidate", "TIC 144439305"],
+  "related_identifiers": [
+    {"identifier": "https://rajmeet.github.io/TIC144439305/", "relation": "isDocumentedBy", "resource_type": "other"},
+    {"identifier": "https://github.com/Rajmeet/TIC144439305", "relation": "isSupplementTo", "resource_type": "software"}
+  ]
+}
