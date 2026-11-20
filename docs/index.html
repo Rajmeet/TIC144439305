@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TIC 144439305.01</title>
+<meta name="description" content="A 1.1 Earth-radius, 22.6-hour transiting planet candidate around a nearby red dwarf, found in public NASA TESS data. Candidate, not yet validated.">
+<meta property="og:title" content="TIC 144439305.01: an Earth-sized planet candidate">
+<meta property="og:description" content="1.12 Earth radii, 22.6-hour orbit, red dwarf 62 parsecs away. Found in public TESS data; recovered in a pre-registered test.">
+<meta property="og:image" content="artist_impression.png">
+<style>
+  :root {
+    --bg: #fbfaf8; --fg: #1d1c22; --muted: #5d5b66; --card: #ffffff; --border: #e4e1dc;
+    --accent: #c4501d; --accent-soft: #f6e3d8; --ok: #2f7d4f; --warn: #9a6a00; --code: #f2efea;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0e0d12; --fg: #ecebf0; --muted: #a2a0ad; --card: #17161d; --border: #2b2a33;
+      --accent: #ff8a4c; --accent-soft: #2c1a12; --ok: #5cc68a; --warn: #e2b24a; --code: #1d1c24;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width: 920px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: clamp(28px, 5vw, 42px); line-height: 1.15; margin: 0 0 10px; letter-spacing: -0.01em; }
+  h2 { font-size: 22px; margin: 44px 0 12px; }
+  p { margin: 0 0 14px; }
+  a { color: var(--accent); }
+  .lede { font-size: 18px; color: var(--muted); max-width: 720px; }
+  .badge { display: inline-block; font-size: 13px; font-weight: 600; padding: 4px 10px; border-radius: 999px;
+           background: var(--accent-soft); color: var(--accent); margin-bottom: 14px; }
+  figure { margin: 22px 0; }
+  figure img { width: 100%; height: auto; display: block; border-radius: 10px; border: 1px solid var(--border); }
+  figcaption { font-size: 13.5px; color: var(--muted); margin-top: 8px; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin: 22px 0; }
+  .stat { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
+  .stat .v { font-size: 22px; font-weight: 650; }
+  .stat .k { font-size: 13px; color: var(--muted); }
+  .count { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin: 22px 0; }
+  .count .big { font-size: clamp(26px, 6vw, 40px); font-weight: 700; font-variant-numeric: tabular-nums; }
+  .count .sub { color: var(--muted); font-size: 14px; }
+  ol.evidence { padding-left: 22px; }
+  ol.evidence li { margin-bottom: 10px; }
+  table { border-collapse: collapse; width: 100%; font-size: 15px; margin: 8px 0 16px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; font-size: 13px; }
+  .tablewrap { overflow-x: auto; }
+  .ok { color: var(--ok); font-weight: 600; }
+  .warn { color: var(--warn); font-weight: 600; }
+  code { background: var(--code); padding: 1px 5px; border-radius: 4px; font-size: 13.5px; word-break: break-all; }
+  footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--border); color: var(--muted); font-size: 13.5px; }
+</style>
+</head>
+<body>
+<main>
+  <span class="badge">Planet candidate · not yet validated or confirmed</span>
+  <h1>TIC 144439305.01: an Earth-sized world with a 22.6-hour year</h1>
+  <p class="lede">A rocky-sized planet candidate orbiting a red dwarf about 200 light-years away, found in public
+    NASA TESS data by <strong>Rajmeet Chandok</strong> (November 2026), with the search and vetting carried out using
+    Claude (Anthropic).</p>
+
+  <figure>
+    <img src="artist_impression.png" alt="Artist's impression: a large orange-red star on the left and a rocky planet on the right, its star-facing side glowing hot and its far side dark, with size comparisons below.">
+    <figcaption>Artist's impression. The sizes, the star's 17° span in the planet's sky, and the permanent day/night
+      split follow from the measurements; the surface details are imagined. No telescope can photograph this planet.</figcaption>
+  </figure>
+
+  <div class="stats">
+    <div class="stat"><div class="v">1.12 ± 0.08</div><div class="k">Earth radii</div></div>
+    <div class="stat"><div class="v">22.6 h</div><div class="k">orbital period (0.9398098 d)</div></div>
+    <div class="stat"><div class="v">~870–1,300 K</div><div class="k">dayside temperature (estimate)</div></div>
+    <div class="stat"><div class="v">62 pc</div><div class="k">distance (≈200 light-years)</div></div>
+    <div class="stat"><div class="v">0.009</div><div class="k">false-positive probability (TRICERATOPS + Gaia limits)</div></div>
+  </div>
+
+  <div class="count" id="count">
+    <div class="sub">Next predicted transit (the planet crosses its star)</div>
+    <div class="big" id="cd">–</div>
+    <div class="sub" id="when">Loading the ephemeris…</div>
+  </div>
+
+  <h2>What was seen</h2>
+  <p>Every 22.6 hours, the star TIC 144439305 dims by about 0.05% for about an hour. NASA's TESS satellite recorded
+    this in every observing period that covered the star, from 2020 to 2026: more than 150 transits. The size of the dip,
+    combined with the star's size, gives a planet 1.12 times the size of Earth.</p>
+  <figure>
+    <img src="transit_fit.png" alt="Left: all TESS data folded on the 0.94-day period, showing a dip of about 500 parts per million lasting about an hour, with the best-fit transit model. Right: the same dip shown separately in each of five TESS sectors.">
+    <figcaption>All TESS data folded on the period, with the fitted transit model (left), and each sector on its own (right).</figcaption>
+  </figure>
+
+  <h2>Why we think it's real</h2>
+  <ol class="evidence">
+    <li><strong>It was predicted before it was looked at.</strong> TESS observed the star again in June–July 2026
+      (sectors 105–106), but no light curves had been made from those images. The expected transit times and depth were
+      frozen and fingerprinted (SHA-256 <code>7c9ad782…8bed688</code>) before the images were opened. The dips appeared on
+      schedule at the predicted depth: <span class="ok">473 ± 74 ppm, a 6.4σ detection</span>; none of 40 checks at wrong
+      times came close.</li>
+    <li><strong>It's in every year of data</strong>, at a consistent depth, with matching odd and even transits and no
+      sign of a second eclipse.</li>
+    <li><strong>It shows up in independent processing</strong>: our own photometry from the raw images (7.7σ) and the
+      separate TESS-SPOC pipeline (6.3σ) both find it.</li>
+    <li><strong>It's on the right star.</strong> Fitting the images with TESS's real point-spread function puts the
+      source on the target; every neighbouring star that could fake it is ruled out.</li>
+    <li><strong>The odds of a false alarm are low.</strong> TRICERATOPS, with Gaia limits on hidden companions, gives a
+      false-positive probability of 0.9%.</li>
+  </ol>
+
+  <h2>What isn't known yet</h2>
+  <div class="tablewrap"><table>
+    <tr><th>Question</th><th>Status</th><th>What would settle it</th></tr>
+    <tr><td>Is it a planet (formally)?</td><td class="warn">"Likely planet"</td><td>High-resolution imaging to rule out an unresolved companion star</td></tr>
+    <tr><td>What is it made of?</td><td class="warn">Unknown</td><td>A mass from precise radial velocities (~1–2 m/s signal)</td></tr>
+    <tr><td>Does it have an atmosphere?</td><td class="warn">Unknown; probably not</td><td>JWST thermal measurements of the dayside</td></tr>
+    <tr><td>Has anyone reported it before?</td><td class="ok">Not as of 2026-11-20</td><td>Not a TOI or CTOI; no papers in SIMBAD; not in public search catalogues</td></tr>
+  </table></div>
+
+  <h2>The star</h2>
+  <p>TIC 144439305 (Gaia DR3 6532568669359184000, 2MASS J23552819-4407251) is a red dwarf in the southern constellation
+    Phoenix: about half the Sun's size and mass, 3,505 K, and about 4% as luminous. From the planet it would fill about
+    17° of the sky, 32 times wider than our Sun appears from Earth.</p>
+
+  <h2>Data, code and credit</h2>
+  <p>Everything needed to check or reproduce this result, including the full analysis, data products, the
+    pre-registered prediction and the pipeline code, is in the
+    <a href="https://github.com/Rajmeet/TIC144439305">GitHub repository</a>. Predicted transit times through 2027:
+    <a href="ephemeris.csv">ephemeris.csv</a>.</p>
+  <p>This work uses data from NASA's TESS mission obtained from MAST (QLP, TESS-SPOC and TARS light curves; TESScut),
+    ESA's Gaia mission, and the TESS Input Catalog, and the open-source tools lightkurve, wotan, batman, emcee,
+    TRICERATOPS, MOLUSC and TESS_PRF.</p>
+
+  <footer>
+    Rajmeet Chandok, 2026. Text and figures CC BY 4.0, code MIT. This is a planet <em>candidate</em>: it has not been
+    validated by independent follow-up observations or confirmed with a mass measurement.
+  </footer>
+</main>
+<script>
+(function () {
+  const cd = document.getElementById("cd"), when = document.getElementById("when");
+  let times = [];
+  function pad(n) { return String(n).padStart(2, "0"); }
+  function tick() {
+    const now = Date.now();
+    // a transit lasts ~1.02 h: show "in transit now" from ingress to egress
+    const half = 0.51 * 3600e3;
+    const cur = times.find(t => Math.abs(t - now) <= half);
+    if (cur) { cd.textContent = "Transiting now"; when.textContent = "Mid-transit " + new Date(cur).toLocaleString() + " (your local time)"; return; }
+    const next = times.find(t => t - half > now);
+    if (!next) { cd.textContent = "–"; when.textContent = "Beyond the published ephemeris (2027-12-30)."; return; }
+    let s = Math.floor((next - half - now) / 1000);
+    const h = Math.floor(s / 3600); s -= h * 3600; const m = Math.floor(s / 60); s -= m * 60;
+    cd.textContent = `${h}h ${pad(m)}m ${pad(s)}s`;
+    when.textContent = "until ingress · mid-transit " + new Date(next).toLocaleString() +
+      " (your local time, ±3 min) · it happens every 22 h 33 m, but only TESS-class precision can see it";
+  }
+  fetch("ephemeris.csv").then(r => r.text()).then(txt => {
+    times = txt.trim().split("\n").slice(1).map(l => Date.parse(l.split(",")[2].replace(" ", "T") + ":00Z")).filter(x => !isNaN(x));
+    tick(); setInterval(tick, 1000);
+  }).catch(() => { when.textContent = "Could not load ephemeris.csv"; });
+})();
+</script>
+</body>
+</html>
